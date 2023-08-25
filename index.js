@@ -29,7 +29,17 @@ let button = document.getElementById("party")
 //     clock()
 // },1000);
 
+let party = document.getElementById('party')
 
+party.addEventListener('mouseover',()=>{
+    party.innerText='Party Time!'
+   
+})
+
+party.addEventListener('mouseout',()=>{
+    party.innerText='Set Alarm'
+    
+})
 
 
 
