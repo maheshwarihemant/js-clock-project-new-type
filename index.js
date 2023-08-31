@@ -126,8 +126,8 @@ button.addEventListener("click",()=>{
         
     }
     if(parseInt(lunch.value) === hours){
-        document.getElementById("bre").innerHTML = "GO AND PLAY PUBG GAME";
-        document.getElementById("morningimage").style.backgroundImage="url('./PUBG .SRC.webp')"
+        document.getElementById("bre").innerHTML = "GO AND TAKE SOME FOOD AND PLAY GAME";
+        document.getElementById("morningimage").style.backgroundImage="url('./\Component 31 – 1.svg')"
         
     }
     if(parseInt(nap.value) === hours){
