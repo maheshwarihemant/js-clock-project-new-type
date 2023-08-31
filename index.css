@@ -240,23 +240,23 @@ select option:hover{background-color:blue;}
 
 /* Responsive queries */
 
-@media only screen and (min-width:300px) and (max-width:920px)
+@media only screen and (min-width:300px) and (max-width:667px)
     
 {
     body{
         overflow-x: hidden;
     }
     .clock{
-        width:190px;
-        height: 95px;
-      position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
        
 
     }
 
     .h1{
        
-        top: 10vh;
+        top: 12vh;
         width: 89%;
         left: 6%;
         
@@ -281,7 +281,7 @@ select option:hover{background-color:blue;}
     }
    
     .breakfast{
-        top: 13rem;
+        top: 6.5rem;
         left: 0.1rem;
         width: 81%;
         position: relative;
@@ -293,9 +293,26 @@ select option:hover{background-color:blue;}
     left: 3px;
     font-size: 19px;
     height: 230px;
+    
     }
+    .Wakeup{
+        font-size: 12px;
+     }
+       .lunch{
+        font-size: 12px;
+        top: -2% ;
+       }
+       .nap{
+        font-size: 12px;
+        top: -2% ;
+    
+       }
+       .night{
+        font-size: 12px;
+        top: -2% ;
+       }
     #morningimage {
-        top: 640px;
+        top: 545px;
         left: 0%;
         width: 100%;
         height: 392px;
@@ -303,7 +320,7 @@ select option:hover{background-color:blue;}
        
     }
     .GM{
-        top: 1047px;
+        top: 951px;
         width: 87%;
         
         left: 1%;
@@ -311,7 +328,7 @@ select option:hover{background-color:blue;}
 
     }
     .alarm{
-        top: 1133px;
+        top: 1074px;
         left: 5px;
         width: 40%;
         /* height: 60px; */
@@ -320,29 +337,235 @@ select option:hover{background-color:blue;}
     }
     
     #parent1{
-        top: 1133px;
+        top: 1074px;
         width: 53%;
         /* font-size: 38px; */
         left: 166px;
         /* position: relative; */
     }
 
- .Wakeup{
-    font-size: 12px;
- }
-   .lunch{
-    font-size: 12px;
-    top: -2% ;
-   }
-   .nap{
-    font-size: 12px;
-    top: -2% ;
 
-   }
-   .night{
-    font-size: 12px;
-    top: -2% ;
-   }
 
     }
+    
+    @media only screen and (min-width:414px) and (max-width:900px)
+    
+    {
+        body{
+            overflow-x: hidden;
+        }
+        .clock{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+    
+        }
+    
+        .h1{
+           
+            top: 12vh;
+            width: 89%;
+            left: 6%;
+            
+            
+            
+        }
+        .box2{
+            
+            width: 100%;
+            font-size: 13px;
+            
+             
+        }
+        .box1{
+           width: 95%;
+             
+           
+        }
+        .box{
+            width: 93%;  
+          
+        }
+       
+        .breakfast{
+            top: 8.5rem;
+            left: 0.1rem;
+            width: 81%;
+            position: relative;
+        }
+        .parent{
+              
+        top: 38vh;
+        width: 97%;
+        left: 3px;
+        font-size: 19px;
+        height: 230px;
+        
+        }
+        .Wakeup{
+            font-size: 12px;
+         }
+           .lunch{
+            font-size: 12px;
+            top: -2% ;
+           }
+           .nap{
+            font-size: 12px;
+            top: -2% ;
+        
+           }
+           .night{
+            font-size: 12px;
+            top: -2% ;
+           }
+        #morningimage {
+            top: 582px;
+            left: 0%;
+            width: 100%;
+            height: 392px;
+           
+           
+        }
+        .GM{
+            top: 980px;
+            width: 87%;
+            
+            left: 1%;
+            
+    
+        }
+        .alarm{
+            top: 1100px;
+            left: 5px;
+            width: 40%;
+            /* height: 60px; */
+            /* font-size: 40px; */
+          
+        }
+        
+        #parent1{
+            top: 1100px;
+            width: 53%;
+            /* font-size: 38px; */
+            left: 166px;
+            /* position: relative; */
+        }
+    
+    
+    
+        }
+
+        
+
+
+
+        @media only screen and (min-width:390px) and (max-width:900px)
+    
+{
+    body{
+        overflow-x: hidden;
+    }
+    .clock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+
+    }
+
+    .h1{
+       
+        top: 12.5vh;
+        width: 89%;
+        left: 6%;
+        
+        
+        
+    }
+    .box2{
+        
+        width: 100%;
+        font-size: 13px;
+        
+         
+    }
+    .box1{
+       width: 95%;
+         
+       
+    }
+    .box{
+        width: 93%;  
+      
+    }
+   
+    .breakfast{
+        top: 8.5rem;
+        left: 0.1rem;
+        width: 81%;
+        position: relative;
+    }
+    .parent{
+          
+    top: 41vh;
+    width: 97%;
+    left: 3px;
+    font-size: 19px;
+    height: 230px;
+    
+    }
+    .Wakeup{
+        font-size: 12px;
+     }
+       .lunch{
+        font-size: 12px;
+        top: -2% ;
+       }
+       .nap{
+        font-size: 12px;
+        top: -2% ;
+    
+       }
+       .night{
+        font-size: 12px;
+        top: -2% ;
+       }
+    #morningimage {
+        top: 580px;
+        left: 0%;
+        width: 100%;
+        height: 392px;
+       
+       
+    }
+    .GM{
+        top: 990px;
+        width: 87%;
+        
+        left: 1%;
+        
+
+    }
+    .alarm{
+        top: 1100px;
+        left: 5px;
+        width: 40%;
+        /* height: 60px; */
+        /* font-size: 40px; */
+      
+    }
+    
+    #parent1{
+        top: 1100px;
+        width: 53%;
+        /* font-size: 38px; */
+        left: 166px;
+        /* position: relative; */
+    }
+
+
+
+    }
+    
     
